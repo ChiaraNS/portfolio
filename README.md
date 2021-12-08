@@ -2,7 +2,7 @@
 
 ![portfolio](/assets/images/portfolio-screenshot.png)
 ## Table of contents
-* [Portfolio](https://chiarans.github.io/passwordGenerator/)
+* [Portfolio](https://chiarans.github.io/portfolio/)
 * [General info](#general-info)
 * [Applications Included](#applications-included)
 * [Technologies](#technologies)
