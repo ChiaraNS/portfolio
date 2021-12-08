@@ -36,3 +36,32 @@ header nav a {
     font-size: 25px;
     text-decoration: none;
 }
+
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+    padding: 2% 4% 2% 12%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.hero img {
+    border-radius: 50%;
+    width: 150px;
+    margin: 20px;
+}
+
+.hero div {
+    flex: 75%;
+}
+
+.hero h2 {
+    background-color: #7cb8fde1;
+    color:#0e335e;  
+    font-size: 30px; 
+    display: inline;
+    margin: 0;
+    padding: 7px;
+}
