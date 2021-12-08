@@ -65,3 +65,42 @@ header nav a {
     margin: 0;
     padding: 7px;
 }
+
+.content {
+    max-width: 95%;
+}
+
+.page-content {
+    margin: 20px 0;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.page-content h2 {
+    color:#0e335e;
+    margin: 0;   
+    padding-right: 15px;
+    flex: 0 18%;
+    text-align: right;
+    border-right: 2.5px solid; 
+}
+
+.page-content div {
+    flex: 0 75%;
+    color: #0e335e;
+
+}
+
+h3 {
+    font-size: 20px;
+    margin: 0;
+    padding: 2px;
+
+}
+
+h4 {
+    margin: 0;
+    padding: 2px;
+}
