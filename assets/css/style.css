@@ -167,3 +167,17 @@ h4 {
  
  /*end flex box*/
  /* Contact Section */
+
+ .contact-me address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ }
+
+ .contact-me address a {
+    color: #7cb8fde1;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/*future resizing for being mobile interactive*/
