@@ -1,6 +1,6 @@
 # Portfolio
 
-![portfolio](https://github.com/ChiaraNS/portfolio/blob/1375019105f47e7b27b63042d9072179a8e02bae/assets/images/Screenshot%20(37).png)
+![portfolio](/assets/images/portfolio-screenshot.png)
 ## Table of contents
 * [Portfolio](https://chiarans.github.io/passwordGenerator/)
 * [General info](#general-info)
