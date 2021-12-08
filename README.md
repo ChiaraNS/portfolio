@@ -8,8 +8,7 @@
 * [Technologies](#technologies)
 
 ## General info
-This project is a simple password generator that allows you to request specific requirements. This generator begins by asking a series of questions to know the password specifications. It then uses your answers to create a random and unique password with an acceptable length and approved special characters.
-
+This is a portfolio of past websites I have completed as I progressed through my learning.
 ## Applications Included
 The assignments linked are:
 * BYTEME Project 2
