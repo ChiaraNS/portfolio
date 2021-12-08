@@ -27,4 +27,3 @@ Project is created with (all through VScode extension):
 * JawsDB
 * APIs 
 	
-# portfolio
