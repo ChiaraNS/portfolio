@@ -166,7 +166,7 @@ h4 {
  }
  
  /*end flex box*/
- /* Contact Section */
+ /* Contact content */
 
  .contact-me address {
     display: flex;
@@ -179,5 +179,100 @@ h4 {
     font-size: 20px;
     text-decoration: none;
 }
+ 
+/* MEDIA QUERIES*/
 
-/*future resizing for being mobile interactive*/
+@media screen and (max-width: 980px) {
+    header {
+        padding: 0 0 10px 0;
+        justify-content: center;
+        text-align: center;
+    }
+
+    header h1 {
+        width: 100%;
+        margin: 0 0 10px 0;
+        font-size: 5vw;
+    }
+    
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 50px;
+    }
+
+    .content {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .page-content h2,
+    .page-content div {
+        flex: 100%;
+    }
+
+    .page-content > h2 {
+        border-right: none;
+        border-bottom: 4px solid;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: 5vw;
+    }
+
+    p {
+        text-align: center;
+    }
+
+}
+ 
+@media screen and (max-width: 575px) {
+    header h1 {
+        font-size: 12vw;
+    }
+
+    header nav {
+        justify-content: center;
+    }
+
+    header nav a {
+        font-size: 5vw;
+        padding: 0;
+    }
+    
+    .hero {
+        padding: 5%;
+    }
+    
+    .hero img {
+        border-radius: 0;
+        width: 50%;
+    }
+    .hero h2 {
+        font-size: 8vw;
+        display: block;
+        text-align: center
+    }
+
+    .content h2 {
+        font-size: 8vw;
+    }
+
+    .work-container {
+        display: block;
+    }
+
+    .assignment {
+        margin: 10px;
+        padding: 20% 0;
+    }
+
+    .assignment div {
+        text-align: center;
+    }
+
+    .contact-me address a {
+        padding: 2%;
+        font-size: 5vw;
+    }
+}
